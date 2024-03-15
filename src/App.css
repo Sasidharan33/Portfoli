@@ -1,0 +1,329 @@
+*{
+  padding: 0;
+  top: 0;
+  margin: 0;
+}
+.main-container{
+  width: 100%;
+  height: 2500px;
+  /* border-style: dotted; */
+  font-family: "Maven Pro", sans-serif;
+}
+.about-container{
+  width: 77%;
+  height: 450px;
+  /* border-style: dotted; */
+  margin: 50px 0 0 12.5%;
+}
+.about-left{
+  width: 50%;
+  height: 250px;
+  /* border-style: dotted; */
+  margin: 200px 0 0 0;
+  float: left;
+}
+.about-right{
+  width: 49%;
+  height: 350px;
+  /* border-style: dotted; */
+  margin: 100px 0 0 1%;
+  float: left;
+}
+.about-image{
+  width: 100%;
+  height: 350px;
+}
+.welcome{
+  color: #5b5b5b;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 20px 0 0 3%;
+  line-height: 1.2;
+}
+.about-heading{
+  font-size:2.8em;
+  line-height: 1.2;
+  margin: 20px 0 20px 0;
+}
+.about-paragraph{
+  font-size: 18px;
+  color: #5b5b5b;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.download-button{
+  width: 30%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #eee;
+  color:#5b5b5b;
+  font-size: 14px;
+  font-weight: bold;
+}
+.get-button{
+  width: 30%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  margin-left: 3%;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #474559;
+  color: white;
+}
+.item{
+  width: 80%;
+  height: 400px;
+  /* border-style: dotted; */
+  margin: 0 10% 20px 10%;
+  margin-top: 40px;
+  box-shadow: 1px 1px 5px 5px  #eae4e4;
+  box-shadow: #f2f2f2;
+}
+.project-main{
+  text-align: center;
+  width: 75%;
+  margin: 0 14% 0 11%;
+  height: 600px;
+  /* border-style: dotted; */
+  margin-top: 100px;
+  line-height: 1.2;
+}
+.owl-prev span{
+  position: absolute;
+  font-size: 100px;
+  top: 38%;
+  right: 98%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family:  'unicons';
+}
+.owl-next span{
+  position: absolute;
+  font-size: 100px;
+  top: 38%;
+  left: 98%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family:  'unicons';
+}
+.owl-next span:hover,.owl-prev span:hover{
+  color: black;
+}
+.item-con{
+  width: 60%;
+  height: 400px;
+  /* border-style: dotted; */
+  text-align: left;
+  float: left;
+
+}
+.item-img{
+  width: 30%;
+  height: 300px;
+  /* border-style: dotted; */
+  text-align: left;
+  float: left;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+.item-con h3{
+  margin-left: 5%;
+  margin-top: 50px;
+}
+.item-con ul{
+  margin-left: 5%;
+  margin-top: 10px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.item-img img{
+  height: 300px;
+}
+.aboutme-main{
+  width: 75%;
+  height: 500px;
+  margin: 100px 12.5% 0 12.5%;
+  /* border-style: dotted; */
+  text-align: center;
+}
+.color-span{
+  color: #ffc200;
+}
+.aboutme-left{
+  width: 50%;
+  height: 400px;
+  /* border-style: dotted; */
+  margin-top: 50px;
+  float: left;
+  text-align: left;
+}
+.aboutme-left h3{
+  margin-left: 5.5%;
+}
+.aboutme-right{
+  width: 40%;
+  margin-left: 10%;
+  height: 400px;
+  /* border-style: dotted; */
+  margin-top: 50px;
+  float: left;
+}
+.aboutme-left1{
+  width: 50%;
+  height: 350px;
+  /* border-style: dotted; */
+  float: left;
+  text-align: left;
+  
+}
+.aboutme-left1 ul{
+  list-style-type: none;
+  font-weight: 600;
+  line-height: 2.4;
+}
+.aboutme-left2 ul{
+  list-style-type: none;
+  font-weight: 600;
+  line-height: 2.4;
+}
+.aboutme-left2{
+  width: 50%;
+  height: 350px;
+  /* border-style: dotted; */
+  float: left;
+  text-align: left;
+}
+.viewcv{
+  margin-left: 10%;
+  width: 45%;
+  height: 40px;
+  border: none;
+  border-radius:50px;
+  background-color:#474559;
+  color: white;
+}
+.aboutme-right1{
+  width: 100%;
+  height: 175px;
+  border: 1px solid #ffc200;
+  border-radius: 5px;
+  text-align: left;
+}
+.aboutme-right2{
+  width: 100%;
+  height: 175px;
+  border: 1px solid #ffc200;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+.aboutme-right1:hover{
+  box-shadow: .5px .5px 3px 3px  #ffc200;
+}
+.aboutme-right2:hover{
+  box-shadow: .5px .5px 3px 3px  #ffc200;
+}
+.aboutme-right1 h1{
+  color: #ffc200;
+  margin: 15px 0 0 5%;
+}
+.aboutme-right1 h6{
+  margin: 10px 0 0 10%;
+}
+.aboutme-right2 h1{
+  color: #ffc200;
+  margin: 15px 0 0 5%;
+}
+.aboutme-right2 h6{
+  margin: 10px 0 0 10%;
+}
+.contact-main{
+  width: 75%;
+  height: 500px;
+  margin: 100px 12.5% 100px 12.5%;
+  /* border-style: dotted; */
+  font-family: "Maven Pro", sans-serif;
+}
+.contact-left{
+  width: 40%;
+  height: 450px;
+  /* border-style: dotted; */
+  float: left;
+}
+.contact-right{
+  width: 50%;
+  height: 450px;
+  margin-left: 10%;
+  /* border-style: dotted; */
+  float: left;
+}
+.contact-right h2{
+  font-size: 2.4em;
+  font-weight: bold;
+  font-family: "Maven Pro", sans-serif;
+}
+.inp1{
+  width: 48%;
+  height: 50px;
+  margin-top: 30px;
+  border: 1px solid white;
+}
+.inp2{
+  width: 48%;
+  height: 50px;
+  margin-left: 4%;
+  border: 1px solid white;
+}
+.inp3{
+  width: 100%;
+  height: 130px;
+  margin-top: 30px;
+  border: 1px solid white;
+}
+.send{
+  width: 25%;
+  height: 40px;
+  border: none;
+  background-color: #ffc200;
+  border-radius: 50px;
+  float: right;
+  margin-top: 30px;
+}
+.Navbar{
+  width: 75%;
+  height: 70px;
+  /* border-style: dotted; */
+  margin: 0 12.5% 0 12.5%;
+}
+.Navbar h4{
+  float: left;
+  margin-top: 30px;
+}
+.Navbar a{
+  text-decoration: none;
+  margin-left: 5%;
+  float: left;
+  margin-top: 35px;
+  
+}
+.Navbar button{
+  float: right;
+  margin-top: 35px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mmain{
+  animation: changecontent 6s infinite;
+}
+.moon{
+  font-size: 30px;
+  position: absolute;
+  margin: 25px -2.5%;
+}
+@keyframes changecontent {
+  0%,50% {content: "Sasidharan";}
+  50%,100% {content:"Web Developer";}  
+}
